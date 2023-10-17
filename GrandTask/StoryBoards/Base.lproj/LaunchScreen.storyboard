@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BG_splash" translatesAutoresizingMaskIntoConstraints="NO" id="ziE-rM-sdc">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BG_down" translatesAutoresizingMaskIntoConstraints="NO" id="ss1-xM-Xgk">
+                                <rect key="frame" x="0.0" y="732" width="393" height="120"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="120" id="6LD-tF-cqP"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_logo" translatesAutoresizingMaskIntoConstraints="NO" id="dhi-PC-hbh">
+                                <rect key="frame" x="30" y="366" width="333" height="120"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="120" id="bKr-IQ-rfT"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BG_up" translatesAutoresizingMaskIntoConstraints="NO" id="1du-MD-zhk">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="120"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="120" id="Zob-Pf-dL9"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="dhi-PC-hbh" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="2kI-Pl-4ct"/>
+                            <constraint firstItem="dhi-PC-hbh" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="5nR-iQ-5st"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="dhi-PC-hbh" secondAttribute="trailing" constant="30" id="CVe-fa-56l"/>
+                            <constraint firstAttribute="bottom" secondItem="ss1-xM-Xgk" secondAttribute="bottom" id="F4c-z8-Xen"/>
+                            <constraint firstItem="ziE-rM-sdc" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="N7l-sS-nHT"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="1du-MD-zhk" secondAttribute="trailing" id="NeC-fO-EQS"/>
+                            <constraint firstAttribute="bottom" secondItem="ziE-rM-sdc" secondAttribute="bottom" id="Ppc-sp-3wU"/>
+                            <constraint firstItem="dhi-PC-hbh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="QXy-81-I7U"/>
+                            <constraint firstAttribute="trailing" secondItem="ss1-xM-Xgk" secondAttribute="trailing" id="RGz-S2-fsG"/>
+                            <constraint firstItem="1du-MD-zhk" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="W1L-3e-HGl"/>
+                            <constraint firstItem="1du-MD-zhk" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="l7J-yR-4OY"/>
+                            <constraint firstItem="ss1-xM-Xgk" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="nTe-xf-XNF"/>
+                            <constraint firstItem="ziE-rM-sdc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="t7q-YZ-Qf3"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ziE-rM-sdc" secondAttribute="trailing" id="w78-zK-Dbm"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.671755725190835" y="374.64788732394368"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="BG_down" width="375" height="78.666664123535156"/>
+        <image name="BG_splash" width="375" height="812"/>
+        <image name="BG_up" width="375" height="78.666664123535156"/>
+        <image name="ic_logo" width="142" height="60"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

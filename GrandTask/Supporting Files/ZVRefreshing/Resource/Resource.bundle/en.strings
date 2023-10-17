@@ -1,0 +1,35 @@
+/* 
+  ZVRefreshing.strings
+  ZVRefreshing
+
+  Created by zevwings on 2017/7/10.
+  Copyright © 2017年 zevwings. All rights reserved.
+*/
+
+//"pull down to refresh"          = "Pull down to refresh";
+//"release to refresh"            = "Release to refresh";
+//"loading..."                    = "Loading ...";
+//
+//"tap or pull up to load more"   = "Tap or pull up to load more";
+//"no more data"                  = "There is no more data";
+//
+//"pull up to load more"          = "Pull up to load more data";
+//"release to load more"          = "Release to load more data";
+//
+//"last update:"                  = "Last update: ";
+//"today"                         = "Today";
+//"no record"                     = "No Record";
+
+"pull down to refresh"          = "اسحب للأسفل للتحديث";
+"release to refresh"            = "اترك للتحديث ...";
+"loading..."                    = "جاري التحميل ...";
+
+"tap or pull up to load more"   = "اسحب للأعلى للتحميل";
+"no more data"                  = "لا يوجد بيانات جديدة";
+
+"pull up to load more"          = "اسحب للأعلى للتحميل";
+"release to load more"          = "اترك للتحميل";
+
+"last update:"                  = "اخر تحديث:";
+"today"                         = "اليوم";
+"no record"                     = "لا يوجد";
